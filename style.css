@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Cascadia code';
+    src: url('font/CascadiaCode.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(8, 4, 44);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-primary {
+    font-family: 'Cascadia Code';
+    color: rgb(64, 54, 155);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+#container-2 {
+    border: rgb(20, 14, 78) 5px solid;
+    border-radius: 50px;
+    width: 58vw;
+    height: 60vh;
+}
+
+#area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#content-text {
+    font-family: 'Cascadia code';
+    font-size: 1.7rem;
+    width: 90%;
+    height: 75%;
+    text-align: left;
+    background: transparent;
+    /* background: red; */
+    border: none;
+    color: rgb(51, 43, 122);
+    padding: 10px;
+    padding-right: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+#typed-text {
+    width: 89%;
+    height: 10%;
+    background: transparent;
+    padding: 8px;
+    font-size: 1.7rem;
+    border: none;
+    outline: none;
+    text-align: left;
+    caret-color: rgb(52, 43, 141);
+}
+
+
+/* Custom Scroll */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 50px;
+    margin: 18px 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(34, 25, 110, 0.63);
+    opacity: 0.5;
+    border-radius: 35px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(34, 25, 110, 0.473);
+}
+
+
+/* Wrong and correct css */
+
+.correct {
+    color: rgba(34, 114, 23, 0.774);
+}
+
+.wrong {
+    color: rgba(121, 26, 26, 0.774);
+}
