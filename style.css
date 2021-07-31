@@ -107,8 +107,10 @@ body {
 
 .correct {
     color: rgba(34, 114, 23, 0.774);
+    background-color: rgba(34, 114, 23, 0.479);
 }
 
 .wrong {
     color: rgba(121, 26, 26, 0.774);
+    background-color: rgba(121, 26, 26, 0.479);
 }
